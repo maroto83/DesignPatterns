@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod", "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod\Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.csproj", "{E3576606-BD8C-49A9-A32D-D26FCE98CA62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.Console", "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.Console\Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.Console.csproj", "{AC48B020-3C09-469B-8C4F-1F1A2511FFF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{E10590DC-479E-467A-A44B-4F9D0B75A2D3}"
+	ProjectSection(SolutionItems) = preProject
+		Explicación patrón.txt = Explicación patrón.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.TestSupport", "Maroto.DesignPatterns.TestSupport\Maroto.DesignPatterns.TestSupport.csproj", "{62CF6CB9-9A0E-4100-954D-4DC85AD6FAE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests", "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests\Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests.csproj", "{77D076C0-ED3D-4F6D-9E23-1C5BDA346B94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3576606-BD8C-49A9-A32D-D26FCE98CA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3576606-BD8C-49A9-A32D-D26FCE98CA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3576606-BD8C-49A9-A32D-D26FCE98CA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3576606-BD8C-49A9-A32D-D26FCE98CA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC48B020-3C09-469B-8C4F-1F1A2511FFF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC48B020-3C09-469B-8C4F-1F1A2511FFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC48B020-3C09-469B-8C4F-1F1A2511FFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC48B020-3C09-469B-8C4F-1F1A2511FFF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62CF6CB9-9A0E-4100-954D-4DC85AD6FAE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62CF6CB9-9A0E-4100-954D-4DC85AD6FAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62CF6CB9-9A0E-4100-954D-4DC85AD6FAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62CF6CB9-9A0E-4100-954D-4DC85AD6FAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D076C0-ED3D-4F6D-9E23-1C5BDA346B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D076C0-ED3D-4F6D-9E23-1C5BDA346B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D076C0-ED3D-4F6D-9E23-1C5BDA346B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D076C0-ED3D-4F6D-9E23-1C5BDA346B94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3576606-BD8C-49A9-A32D-D26FCE98CA62} = {E10590DC-479E-467A-A44B-4F9D0B75A2D3}
+		{AC48B020-3C09-469B-8C4F-1F1A2511FFF2} = {E10590DC-479E-467A-A44B-4F9D0B75A2D3}
+		{77D076C0-ED3D-4F6D-9E23-1C5BDA346B94} = {E10590DC-479E-467A-A44B-4F9D0B75A2D3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6C8F42E-68F5-4DFD-A985-4D12E3DA4689}
+	EndGlobalSection
+EndGlobal
