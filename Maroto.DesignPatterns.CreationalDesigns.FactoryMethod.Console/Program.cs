@@ -9,14 +9,14 @@ namespace Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.Console
         {
             HacerEntrega(new LogisticaMaritima());
             HacerEntrega(new LogisticaTerrestre());
-            HacerEntrega(new LogisticaTerrestre(), PaqueteEnums.TipoDeEnvio.Urgente);
+            HacerEntrega(new LogisticaTerrestre(PaqueteEnums.TipoDeEnvio.Urgente));
 
             System.Console.ReadLine();
         }
 
-        private static void HacerEntrega(CentroLogistica centroLogistica, PaqueteEnums.TipoDeEnvio tipoDeEnvio = PaqueteEnums.TipoDeEnvio.Estandar)
+        private static void HacerEntrega(CentroLogistica centroLogistica)
         {
-            System.Console.WriteLine(centroLogistica.EnviarPaquete(tipoDeEnvio));
+            System.Console.WriteLine(centroLogistica.EnviarPaquete());
         }
     }
 }

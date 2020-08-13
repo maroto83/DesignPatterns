@@ -24,7 +24,7 @@ namespace Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests.Client
 
             protected override void Given()
             {
-                _sut = new LogisticaTerrestre();
+                _sut = new LogisticaTerrestre(TipoDeEnvio);
 
                 _expectedResult = TransporteCreado;
             }
@@ -33,7 +33,7 @@ namespace Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests.Client
             {
                 try
                 {
-                    _result = _sut.CrearTransporte(TipoDeEnvio);
+                    _result = _sut.CrearTransporte();
                 }
                 catch (Exception exception)
                 {

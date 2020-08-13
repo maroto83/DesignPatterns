@@ -7,9 +7,14 @@ namespace Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.Clients
     public class LogisticaTerrestre
         : CentroLogistica
     {
-        public override ITransporte CrearTransporte(PaqueteEnums.TipoDeEnvio tipoDeEnvio = PaqueteEnums.TipoDeEnvio.Estandar)
+        public LogisticaTerrestre(PaqueteEnums.TipoDeEnvio tipoDeEnvio = PaqueteEnums.TipoDeEnvio.Estandar)
+            : base(tipoDeEnvio)
         {
-            if (tipoDeEnvio.Equals(PaqueteEnums.TipoDeEnvio.Urgente))
+        }
+
+        public override ITransporte CrearTransporte()
+        {
+            if (TipoDeEnvio.Equals(PaqueteEnums.TipoDeEnvio.Urgente))
                 return new Tren();
 
             return new Camion();

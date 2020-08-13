@@ -11,7 +11,7 @@ namespace Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests.Builde
 
         public CentroLogisticaBuilder()
         {
-            _centroLogisticaMock = new Mock<CentroLogistica>();
+            _centroLogisticaMock = new Mock<CentroLogistica>(MockBehavior.Loose, PaqueteEnums.TipoDeEnvio.Estandar);
         }
 
         public CentroLogisticaBuilder WithCentroLogisticaMock(Mock<CentroLogistica> centroLogisticaMock)
@@ -20,10 +20,16 @@ namespace Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests.Builde
             return this;
         }
 
-        public CentroLogisticaBuilder WithTransporteCreado(ITransporte transporte, PaqueteEnums.TipoDeEnvio tipoDeEnvio)
+        public CentroLogisticaBuilder WithTipoDeEnvio(PaqueteEnums.TipoDeEnvio tipoDeEnvio)
+        {
+            _centroLogisticaMock = new Mock<CentroLogistica>(MockBehavior.Loose, tipoDeEnvio);
+            return this;
+        }
+
+        public CentroLogisticaBuilder WithTransporteCreado(ITransporte transporte)
         {
             _centroLogisticaMock
-                .Setup(x => x.CrearTransporte(tipoDeEnvio))
+                .Setup(x => x.CrearTransporte())
                 .Returns(transporte);
             return this;
         }

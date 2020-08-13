@@ -1,7 +1,6 @@
 ﻿using FluentAssertions;
 using Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.Clients;
 using Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.Contracts;
-using Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.Enums;
 using Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.Models;
 using Maroto.DesignPatterns.TestSupport;
 using System;
@@ -11,15 +10,13 @@ namespace Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests.Client
 {
     public static class CrearTransporteTest
     {
-        public abstract class Given_A_LogisticaMaritima_When_Crea_Un_Transporte
+        public class Given_A_LogisticaMaritima_When_Crea_Un_Transporte
             : Given_When_Then_Test
         {
             private LogisticaMaritima _sut;
             private Exception _exception;
             private ITransporte _result;
             private Barco _expectedResult;
-
-            protected abstract PaqueteEnums.TipoDeEnvio TipoDeEnvio { get; }
 
             protected override void Given()
             {
@@ -32,7 +29,7 @@ namespace Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests.Client
             {
                 try
                 {
-                    _result = _sut.CrearTransporte(TipoDeEnvio);
+                    _result = _sut.CrearTransporte();
                 }
                 catch (Exception exception)
                 {
@@ -51,17 +48,6 @@ namespace Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests.Client
             {
                 _result.Should().BeOfType(_expectedResult.GetType());
             }
-        }
-        public class Given_A_LogisticaMaritima_When_Envio_No_Es_Urgente
-            : Given_A_LogisticaMaritima_When_Crea_Un_Transporte
-        {
-            protected override PaqueteEnums.TipoDeEnvio TipoDeEnvio => PaqueteEnums.TipoDeEnvio.Estandar;
-        }
-
-        public class Given_A_LogisticaMaritima_When_Envio_Es_Urgente
-            : Given_A_LogisticaMaritima_When_Crea_Un_Transporte
-        {
-            protected override PaqueteEnums.TipoDeEnvio TipoDeEnvio => PaqueteEnums.TipoDeEnvio.Urgente;
         }
     }
 }

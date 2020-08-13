@@ -27,7 +27,8 @@ namespace Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests.Client
                 var transporteFake = new TransporteFake();
 
                 _sut = new CentroLogisticaBuilder()
-                    .WithTransporteCreado(transporteFake, TipoDeEnvio)
+                    .WithTipoDeEnvio(TipoDeEnvio)
+                    .WithTransporteCreado(transporteFake)
                     .Build();
 
                 _expectedResult = MensajeCentroLogistica;
@@ -37,7 +38,7 @@ namespace Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests.Client
             {
                 try
                 {
-                    _result = _sut.EnviarPaquete(TipoDeEnvio);
+                    _result = _sut.EnviarPaquete();
                 }
                 catch (Exception exception)
                 {
