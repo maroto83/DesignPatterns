@@ -20,7 +20,7 @@ namespace Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.UnitTests.Mode
             {
                 _sut = new MesillaVictoriana();
 
-                _expectedResult = " Como en una mesa victoriana.";
+                _expectedResult = " Como en una mesa Victoriana.";
             }
 
             protected override void When()
