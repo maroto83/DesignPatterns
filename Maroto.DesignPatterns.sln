@@ -9,12 +9,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.Creat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{E10590DC-479E-467A-A44B-4F9D0B75A2D3}"
 	ProjectSection(SolutionItems) = preProject
-		Explicación patrón.txt = Explicación patrón.txt
+		Explicacion patron FactoryMethod.txt = Explicacion patron FactoryMethod.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.TestSupport", "Maroto.DesignPatterns.TestSupport\Maroto.DesignPatterns.TestSupport.csproj", "{62CF6CB9-9A0E-4100-954D-4DC85AD6FAE7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests", "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests\Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests.csproj", "{77D076C0-ED3D-4F6D-9E23-1C5BDA346B94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstract Factory", "Abstract Factory", "{4BAE85C1-B00D-44B7-A470-A3A2DF6BDAE2}"
+	ProjectSection(SolutionItems) = preProject
+		Explicación patron AbstractFactory.txt = Explicación patron AbstractFactory.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory", "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory\Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.csproj", "{DBCC172C-20A6-49CA-8076-13A70F4C3E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.Console", "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.Console\Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.Console.csproj", "{6C88B332-7CB3-4F0D-9D9C-777602220F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.UnitTests", "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.UnitTests\Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.UnitTests.csproj", "{675E5851-0E1E-4BAE-9382-71A37F6F6B94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +49,18 @@ Global
 		{77D076C0-ED3D-4F6D-9E23-1C5BDA346B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77D076C0-ED3D-4F6D-9E23-1C5BDA346B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77D076C0-ED3D-4F6D-9E23-1C5BDA346B94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCC172C-20A6-49CA-8076-13A70F4C3E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCC172C-20A6-49CA-8076-13A70F4C3E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCC172C-20A6-49CA-8076-13A70F4C3E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCC172C-20A6-49CA-8076-13A70F4C3E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C88B332-7CB3-4F0D-9D9C-777602220F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C88B332-7CB3-4F0D-9D9C-777602220F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C88B332-7CB3-4F0D-9D9C-777602220F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C88B332-7CB3-4F0D-9D9C-777602220F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{675E5851-0E1E-4BAE-9382-71A37F6F6B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675E5851-0E1E-4BAE-9382-71A37F6F6B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675E5851-0E1E-4BAE-9382-71A37F6F6B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675E5851-0E1E-4BAE-9382-71A37F6F6B94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +69,9 @@ Global
 		{E3576606-BD8C-49A9-A32D-D26FCE98CA62} = {E10590DC-479E-467A-A44B-4F9D0B75A2D3}
 		{AC48B020-3C09-469B-8C4F-1F1A2511FFF2} = {E10590DC-479E-467A-A44B-4F9D0B75A2D3}
 		{77D076C0-ED3D-4F6D-9E23-1C5BDA346B94} = {E10590DC-479E-467A-A44B-4F9D0B75A2D3}
+		{DBCC172C-20A6-49CA-8076-13A70F4C3E48} = {4BAE85C1-B00D-44B7-A470-A3A2DF6BDAE2}
+		{6C88B332-7CB3-4F0D-9D9C-777602220F86} = {4BAE85C1-B00D-44B7-A470-A3A2DF6BDAE2}
+		{675E5851-0E1E-4BAE-9382-71A37F6F6B94} = {4BAE85C1-B00D-44B7-A470-A3A2DF6BDAE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6C8F42E-68F5-4DFD-A985-4D12E3DA4689}

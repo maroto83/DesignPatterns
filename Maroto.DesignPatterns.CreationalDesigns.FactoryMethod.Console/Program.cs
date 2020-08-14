@@ -5,7 +5,7 @@ namespace Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.Console
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             HacerEntrega(new LogisticaMaritima());
             HacerEntrega(new LogisticaTerrestre());
