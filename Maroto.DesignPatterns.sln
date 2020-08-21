@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1209
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod", "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod\Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.csproj", "{E3576606-BD8C-49A9-A32D-D26FCE98CA62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod", "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod\Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.csproj", "{E3576606-BD8C-49A9-A32D-D26FCE98CA62}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.Console", "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.Console\Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.Console.csproj", "{AC48B020-3C09-469B-8C4F-1F1A2511FFF2}"
 EndProject
@@ -12,28 +12,49 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMet
 		Explicacion patron FactoryMethod.txt = Explicacion patron FactoryMethod.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.TestSupport", "Maroto.DesignPatterns.TestSupport\Maroto.DesignPatterns.TestSupport.csproj", "{62CF6CB9-9A0E-4100-954D-4DC85AD6FAE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maroto.DesignPatterns.TestSupport", "Maroto.DesignPatterns.TestSupport\Maroto.DesignPatterns.TestSupport.csproj", "{62CF6CB9-9A0E-4100-954D-4DC85AD6FAE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests", "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests\Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests.csproj", "{77D076C0-ED3D-4F6D-9E23-1C5BDA346B94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests", "Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests\Maroto.DesignPatterns.CreationalDesigns.FactoryMethod.UnitTests.csproj", "{77D076C0-ED3D-4F6D-9E23-1C5BDA346B94}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstract Factory", "Abstract Factory", "{4BAE85C1-B00D-44B7-A470-A3A2DF6BDAE2}"
 	ProjectSection(SolutionItems) = preProject
 		Explicación patron AbstractFactory.txt = Explicación patron AbstractFactory.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory", "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory\Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.csproj", "{DBCC172C-20A6-49CA-8076-13A70F4C3E48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory", "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory\Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.csproj", "{DBCC172C-20A6-49CA-8076-13A70F4C3E48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.Console", "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.Console\Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.Console.csproj", "{6C88B332-7CB3-4F0D-9D9C-777602220F86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.UnitTests", "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.UnitTests\Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.UnitTests.csproj", "{675E5851-0E1E-4BAE-9382-71A37F6F6B94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.UnitTests", "Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.UnitTests\Maroto.DesignPatterns.CreationalDesigns.AbstractFactory.UnitTests.csproj", "{675E5851-0E1E-4BAE-9382-71A37F6F6B94}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{82A63827-71B7-4DE8-A83C-7E36C49329C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.Builder", "Maroto.DesignPatterns.CreationalDesigns.Builder\Maroto.DesignPatterns.CreationalDesigns.Builder.csproj", "{93871ED2-7743-4344-B3BF-797A0C48DE5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maroto.DesignPatterns.CreationalDesigns.Builder", "Maroto.DesignPatterns.CreationalDesigns.Builder\Maroto.DesignPatterns.CreationalDesigns.Builder.csproj", "{93871ED2-7743-4344-B3BF-797A0C48DE5F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.Builder.Console", "Maroto.DesignPatterns.CreationalDesigns.Builder.Console\Maroto.DesignPatterns.CreationalDesigns.Builder.Console.csproj", "{BAD22224-4EC0-40E2-B4A4-D3C9AAFE0940}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.Builder.UnitTests", "Maroto.DesignPatterns.CreationalDesigns.Builder.UnitTests\Maroto.DesignPatterns.CreationalDesigns.Builder.UnitTests.csproj", "{BE5005CD-59BB-42DA-9563-2E29DBCE1C8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maroto.DesignPatterns.CreationalDesigns.Builder.UnitTests", "Maroto.DesignPatterns.CreationalDesigns.Builder.UnitTests\Maroto.DesignPatterns.CreationalDesigns.Builder.UnitTests.csproj", "{BE5005CD-59BB-42DA-9563-2E29DBCE1C8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{F721CEF9-71E6-42CB-B2E0-25A895F48A8D}"
+	ProjectSection(SolutionItems) = preProject
+		Maroto.DesignPatterns.CreationalDesigns.Prototype\Explicacion patron Prototype.txt = Maroto.DesignPatterns.CreationalDesigns.Prototype\Explicacion patron Prototype.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maroto.DesignPatterns.CreationalDesigns.Prototype", "Maroto.DesignPatterns.CreationalDesigns.Prototype\Maroto.DesignPatterns.CreationalDesigns.Prototype.csproj", "{5A769260-574D-455D-A946-F1FF65800E51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.Prototype.Console", "Maroto.DesignPatterns.CreationalDesigns.Prototype.Console\Maroto.DesignPatterns.CreationalDesigns.Prototype.Console.csproj", "{5D011F0B-594A-415F-9E5D-E30517364872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.Prototype.UnitTests", "Maroto.DesignPatterns.CreationalDesigns.Prototype.UnitTests\Maroto.DesignPatterns.CreationalDesigns.Prototype.UnitTests.csproj", "{DB2F2B80-C2A6-4864-9C25-7D5046293694}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{1F62E0BE-3E0B-4BF3-A17E-EEE6051DF00A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.Singleton", "Maroto.DesignPatterns.CreationalDesigns.Singleton\Maroto.DesignPatterns.CreationalDesigns.Singleton.csproj", "{DFB32393-531B-4A75-8167-4DDEB44B671B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.Singleton.Console", "Maroto.DesignPatterns.CreationalDesigns.Singleton.Console\Maroto.DesignPatterns.CreationalDesigns.Singleton.Console.csproj", "{E608B568-4E35-4732-AB04-4A62BE68DFCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maroto.DesignPatterns.CreationalDesigns.Singleton.UnitTests", "Maroto.DesignPatterns.CreationalDesigns.Singleton.UnitTests\Maroto.DesignPatterns.CreationalDesigns.Singleton.UnitTests.csproj", "{1B614AE3-515A-4DC0-BB53-A8EF9D8B3846}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalDesigns", "CreationalDesigns", "{BB8FD0D2-2E3B-4643-891A-F143DF46A5DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +102,30 @@ Global
 		{BE5005CD-59BB-42DA-9563-2E29DBCE1C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE5005CD-59BB-42DA-9563-2E29DBCE1C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE5005CD-59BB-42DA-9563-2E29DBCE1C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A769260-574D-455D-A946-F1FF65800E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A769260-574D-455D-A946-F1FF65800E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A769260-574D-455D-A946-F1FF65800E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A769260-574D-455D-A946-F1FF65800E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D011F0B-594A-415F-9E5D-E30517364872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D011F0B-594A-415F-9E5D-E30517364872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D011F0B-594A-415F-9E5D-E30517364872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D011F0B-594A-415F-9E5D-E30517364872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2F2B80-C2A6-4864-9C25-7D5046293694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2F2B80-C2A6-4864-9C25-7D5046293694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2F2B80-C2A6-4864-9C25-7D5046293694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2F2B80-C2A6-4864-9C25-7D5046293694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB32393-531B-4A75-8167-4DDEB44B671B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB32393-531B-4A75-8167-4DDEB44B671B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB32393-531B-4A75-8167-4DDEB44B671B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB32393-531B-4A75-8167-4DDEB44B671B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E608B568-4E35-4732-AB04-4A62BE68DFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E608B568-4E35-4732-AB04-4A62BE68DFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E608B568-4E35-4732-AB04-4A62BE68DFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E608B568-4E35-4732-AB04-4A62BE68DFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B614AE3-515A-4DC0-BB53-A8EF9D8B3846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B614AE3-515A-4DC0-BB53-A8EF9D8B3846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B614AE3-515A-4DC0-BB53-A8EF9D8B3846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B614AE3-515A-4DC0-BB53-A8EF9D8B3846}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,13 +133,24 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E3576606-BD8C-49A9-A32D-D26FCE98CA62} = {E10590DC-479E-467A-A44B-4F9D0B75A2D3}
 		{AC48B020-3C09-469B-8C4F-1F1A2511FFF2} = {E10590DC-479E-467A-A44B-4F9D0B75A2D3}
+		{E10590DC-479E-467A-A44B-4F9D0B75A2D3} = {BB8FD0D2-2E3B-4643-891A-F143DF46A5DE}
 		{77D076C0-ED3D-4F6D-9E23-1C5BDA346B94} = {E10590DC-479E-467A-A44B-4F9D0B75A2D3}
+		{4BAE85C1-B00D-44B7-A470-A3A2DF6BDAE2} = {BB8FD0D2-2E3B-4643-891A-F143DF46A5DE}
 		{DBCC172C-20A6-49CA-8076-13A70F4C3E48} = {4BAE85C1-B00D-44B7-A470-A3A2DF6BDAE2}
 		{6C88B332-7CB3-4F0D-9D9C-777602220F86} = {4BAE85C1-B00D-44B7-A470-A3A2DF6BDAE2}
 		{675E5851-0E1E-4BAE-9382-71A37F6F6B94} = {4BAE85C1-B00D-44B7-A470-A3A2DF6BDAE2}
+		{82A63827-71B7-4DE8-A83C-7E36C49329C3} = {BB8FD0D2-2E3B-4643-891A-F143DF46A5DE}
 		{93871ED2-7743-4344-B3BF-797A0C48DE5F} = {82A63827-71B7-4DE8-A83C-7E36C49329C3}
 		{BAD22224-4EC0-40E2-B4A4-D3C9AAFE0940} = {82A63827-71B7-4DE8-A83C-7E36C49329C3}
 		{BE5005CD-59BB-42DA-9563-2E29DBCE1C8F} = {82A63827-71B7-4DE8-A83C-7E36C49329C3}
+		{F721CEF9-71E6-42CB-B2E0-25A895F48A8D} = {BB8FD0D2-2E3B-4643-891A-F143DF46A5DE}
+		{5A769260-574D-455D-A946-F1FF65800E51} = {F721CEF9-71E6-42CB-B2E0-25A895F48A8D}
+		{5D011F0B-594A-415F-9E5D-E30517364872} = {F721CEF9-71E6-42CB-B2E0-25A895F48A8D}
+		{DB2F2B80-C2A6-4864-9C25-7D5046293694} = {F721CEF9-71E6-42CB-B2E0-25A895F48A8D}
+		{1F62E0BE-3E0B-4BF3-A17E-EEE6051DF00A} = {BB8FD0D2-2E3B-4643-891A-F143DF46A5DE}
+		{DFB32393-531B-4A75-8167-4DDEB44B671B} = {1F62E0BE-3E0B-4BF3-A17E-EEE6051DF00A}
+		{E608B568-4E35-4732-AB04-4A62BE68DFCF} = {1F62E0BE-3E0B-4BF3-A17E-EEE6051DF00A}
+		{1B614AE3-515A-4DC0-BB53-A8EF9D8B3846} = {1F62E0BE-3E0B-4BF3-A17E-EEE6051DF00A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6C8F42E-68F5-4DFD-A985-4D12E3DA4689}

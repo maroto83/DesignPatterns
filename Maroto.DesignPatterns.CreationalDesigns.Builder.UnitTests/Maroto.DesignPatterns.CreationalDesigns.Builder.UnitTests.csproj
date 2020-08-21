@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Maroto.DesignPatterns.CreationalDesigns.Builder\Maroto.DesignPatterns.CreationalDesigns.Builder.csproj" />
+    <ProjectReference Include="..\Maroto.DesignPatterns.CreationalDesigns.Prototype\Maroto.DesignPatterns.CreationalDesigns.Prototype.csproj" />
     <ProjectReference Include="..\Maroto.DesignPatterns.TestSupport\Maroto.DesignPatterns.TestSupport.csproj" />
   </ItemGroup>
 
