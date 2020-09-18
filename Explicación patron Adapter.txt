@@ -1,0 +1,4 @@
+El patrón Adapter sirve para hacer que dos interfaces, en principio diferentes, puedan comunicarse.
+
+https://refactoring.guru/es/design-patterns/adapter/csharp/example
+Ejemplo: https://danielggarcia.wordpress.com/2014/02/28/patrones-estructurales-i-patron-adapter-wrapper/
